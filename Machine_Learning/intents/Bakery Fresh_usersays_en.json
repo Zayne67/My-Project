@@ -1,0 +1,132 @@
+[
+  {
+    "id": "a9590768-13c5-4cd1-a7bd-e9197e91dded",
+    "data": [
+      {
+        "text": "Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f701db55-df1a-4829-a408-c25ac413e656",
+    "data": [
+      {
+        "text": "A",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "001c1b6b-ac4e-4321-a334-c482ad0e87fc",
+    "data": [
+      {
+        "text": "A.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74061f94-d9c6-40fd-98ad-7a77d82e3b10",
+    "data": [
+      {
+        "text": "Bakery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c41e615-b4bc-433f-93ce-da0433968b89",
+    "data": [
+      {
+        "text": "Bakery Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6902ee61-85ca-4a1d-bfbb-1b2f9b587e6c",
+    "data": [
+      {
+        "text": "A Bakery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2bd9af95-a4c1-4b47-a5b8-c4b7d03a1830",
+    "data": [
+      {
+        "text": "A.Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00e47034-794e-4cc7-8841-824ede0e0dd2",
+    "data": [
+      {
+        "text": "A. Bakery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b6db73b-24f8-410d-b89a-bb8450677665",
+    "data": [
+      {
+        "text": "A Bakery Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "769dae3e-042f-4455-a26d-6294fb66a502",
+    "data": [
+      {
+        "text": "A. Bakery Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

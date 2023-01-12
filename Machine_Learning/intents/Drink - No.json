@@ -1,0 +1,44 @@
+{
+  "id": "9dba1d51-f5ce-44d0-a234-bcd4a5a1f194",
+  "parentId": "e0a1a8ea-4ceb-4bfe-b6a5-fc3d1b9e8b91",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Drink - No",
+  "auto": true,
+  "contexts": [
+    "Drink-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber.Delivery-custom.Beverage-custom.Drink-no",
+      "affectedContexts": [
+        {
+          "name": "Drink-No-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "How many #Drink-followup.Beverage would you like to order then?\n\n1. Return"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "value": "Coffee",
+    "synonyms": [
+      "Coffee",
+      "coffee"
+    ]
+  },
+  {
+    "value": "Juice",
+    "synonyms": [
+      "Juice",
+      "juice"
+    ]
+  }
+]

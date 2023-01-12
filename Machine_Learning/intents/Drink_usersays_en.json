@@ -1,0 +1,30 @@
+[
+  {
+    "id": "4ce43a57-6ace-4314-be81-9414c2b89849",
+    "data": [
+      {
+        "text": "Juice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6521731-3ab7-4d17-b970-fc254d87081e",
+    "data": [
+      {
+        "text": "Coffee",
+        "meta": "@Beverage",
+        "alias": "beverage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

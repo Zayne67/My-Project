@@ -1,0 +1,59 @@
+{
+  "id": "e0a1a8ea-4ceb-4bfe-b6a5-fc3d1b9e8b91",
+  "parentId": "0f5b4c3c-0f32-4cd6-a52e-269c6ee8a65f",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Drink",
+  "auto": true,
+  "contexts": [
+    "Beverage-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber.Delivery-custom.Beverage-custom",
+      "affectedContexts": [
+        {
+          "name": "Drink-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7eb0a8b9-c03a-43c3-8e91-8e53f96dabc2",
+          "name": "beverage",
+          "required": false,
+          "dataType": "@Beverage",
+          "value": "$beverage",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Is that all?\n\nYes or No?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

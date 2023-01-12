@@ -1,0 +1,39 @@
+{
+  "id": "cc5dcc77-e8a3-45d0-b890-53b788161960",
+  "parentId": "4e38bd90-4ec9-4ed7-972b-aab7e13abcef",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Baked Food - yes",
+  "auto": true,
+  "contexts": [
+    "BakedFood-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber.Delivery-selectnumber.BakeryFresh-more.BakedFood-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You ordered 1 #BakedFood-followup.food \n\nThank you, kindly send your location as we prepare your order."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

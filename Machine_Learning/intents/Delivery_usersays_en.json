@@ -1,0 +1,71 @@
+[
+  {
+    "id": "7b66c7c3-8541-41b8-b163-474d4d696c96",
+    "data": [
+      {
+        "text": "2",
+        "userDefined": false
+      },
+      {
+        "text": " Delivery Service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed31bbba-89a7-41b5-88d8-7e5df4feb812",
+    "data": [
+      {
+        "text": "Delivery Service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d47509a-1f6f-4305-b986-4a59a3e6438f",
+    "data": [
+      {
+        "text": "Delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1835117b-bf20-4f4b-ba59-7f31089841d5",
+    "data": [
+      {
+        "text": "2. Delivery Service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64ee7ad8-ecaf-48df-b75a-978fd1e2365f",
+    "data": [
+      {
+        "text": "2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

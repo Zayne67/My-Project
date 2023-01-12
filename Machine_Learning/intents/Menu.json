@@ -1,0 +1,59 @@
+{
+  "id": "e101112f-b169-4111-9292-1582711cb4d6",
+  "parentId": "33e544cb-174a-42c1-b623-3af0977f8cc3",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Menu",
+  "auto": true,
+  "contexts": [
+    "Order-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "Introduction-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b83e457b-a115-4ae2-b310-a01a88963b53",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Check our menu at:\nhttps://prod.timhortons.com/ca/en/pdf/TimHortons-CateringProgram-Brochure.pdf\n\n1. Return"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

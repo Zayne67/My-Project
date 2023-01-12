@@ -1,0 +1,60 @@
+{
+  "id": "4e38bd90-4ec9-4ed7-972b-aab7e13abcef",
+  "parentId": "b9836be9-86fc-4f25-b3f5-7c9f9f518021",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Baked Food",
+  "auto": true,
+  "contexts": [
+    "Introduction-followup",
+    "BakeryFresh-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber.Delivery-selectnumber.BakeryFresh-more",
+      "affectedContexts": [
+        {
+          "name": "BakedFood-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a3bcb3a2-7e5f-4724-845a-1e8313521162",
+          "name": "food",
+          "required": false,
+          "dataType": "@Food",
+          "value": "$food",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Is that all?\n\nYes or No?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

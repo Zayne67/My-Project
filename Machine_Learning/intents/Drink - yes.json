@@ -1,0 +1,39 @@
+{
+  "id": "1c0874d3-9673-41f2-82a9-d708679b9cb7",
+  "parentId": "e0a1a8ea-4ceb-4bfe-b6a5-fc3d1b9e8b91",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Drink - yes",
+  "auto": true,
+  "contexts": [
+    "Drink-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber.Delivery-custom.Beverage-custom.Drink-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You ordered 1 #Drink-followup.Beverage \n\nThank you, kindly send your location as we prepare your order."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

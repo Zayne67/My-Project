@@ -1,0 +1,49 @@
+{
+  "id": "b9836be9-86fc-4f25-b3f5-7c9f9f518021",
+  "parentId": "f9ed1f7e-bde6-462a-a583-f5ed72f5021e",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Bakery Fresh",
+  "auto": true,
+  "contexts": [
+    "Introduction-followup",
+    "Delivery-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber.Delivery-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "Introduction-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "BakeryFresh-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What would you like to order for Baked Food?\n\n- Bagel\n- Donut\n- Sandwich\n\n1. Return"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

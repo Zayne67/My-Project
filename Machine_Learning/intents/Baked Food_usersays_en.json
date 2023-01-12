@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ea76a91c-be77-422a-9c45-f3f585e772a2",
+    "data": [
+      {
+        "text": "Sandwich",
+        "meta": "@Food",
+        "alias": "food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db1f330f-91e5-4ad6-9082-dedbf8d9f382",
+    "data": [
+      {
+        "text": "Bagel",
+        "meta": "@Food",
+        "alias": "food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65339525-f74a-455b-aaa2-3536e81d72c8",
+    "data": [
+      {
+        "text": "Donut",
+        "meta": "@Food",
+        "alias": "food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

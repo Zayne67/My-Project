@@ -1,0 +1,23 @@
+[
+  {
+    "value": "Bagel",
+    "synonyms": [
+      "Bagel",
+      "bagel"
+    ]
+  },
+  {
+    "value": "Donut",
+    "synonyms": [
+      "Donut",
+      "donut"
+    ]
+  },
+  {
+    "value": "Sandwich",
+    "synonyms": [
+      "Sandwich",
+      "sandwich"
+    ]
+  }
+]

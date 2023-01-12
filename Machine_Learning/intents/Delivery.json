@@ -1,0 +1,52 @@
+{
+  "id": "f9ed1f7e-bde6-462a-a583-f5ed72f5021e",
+  "parentId": "33e544cb-174a-42c1-b623-3af0977f8cc3",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Delivery",
+  "auto": true,
+  "contexts": [
+    "Order-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "Introduction-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "Delivery-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "Delivery-followup-2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What would you like to order?\n\nA. Baked Food\nB. Beverage\n\n1. Return"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

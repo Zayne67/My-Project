@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3e512376-af62-4c82-b57d-39ebe6413d63",
+    "data": [
+      {
+        "text": "b. beverage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba728362-c035-433b-a80d-36916b9fe686",
+    "data": [
+      {
+        "text": "b.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3b89605-d523-41d9-b1a9-0c0178943ae4",
+    "data": [
+      {
+        "text": "beverage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ecb4975-2fb9-4041-acee-01fdaa71104e",
+    "data": [
+      {
+        "text": "B",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

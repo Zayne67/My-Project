@@ -1,0 +1,55 @@
+{
+  "id": "6ee9f42f-5092-447b-a34e-38eabad2f7df",
+  "parentId": "cf6005c3-9128-496e-a7a6-d5f21c0903fb",
+  "rootParentId": "698e3694-3ff4-4db9-b8ce-ff7c37245af6",
+  "name": "Amount",
+  "auto": true,
+  "contexts": [
+    "Delivery-followup",
+    "BakedFood-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Introduction.Introduction-selectnumber.Order-selectnumber.Delivery-selectnumber.BakeryFresh-more.BakedFood-no.BakedFood-no-selectnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e9fda6ad-a3ed-4179-bd07-a1a29d8bba6a",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "So you ordered #BakedFood-no-followup.Number\n\nThank you, kindly send your location as we prepare your order."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
